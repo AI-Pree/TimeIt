@@ -6,3 +6,4 @@ Performance profiler for applicaitons
 - displaying it in web visualiation form and let user interact with it 
 - remote profiling of RPC
 - provide asymptotic time and space complexity of the running subroutines or whole application. 
+- Check memory leaks (maybe)
