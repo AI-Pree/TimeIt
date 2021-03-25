@@ -1,6 +1,11 @@
 # TimeIt
 Performance profiler for applicaitons
 
+- Using kprobes for dynamic tracing
+- Statistics for kernel functions
+- Statistics for kernel events
+
+
 ## Goals
 - capturing the time of the applications functions and visualising it in graph
 - displaying it in web visualiation form and let user interact with it 
