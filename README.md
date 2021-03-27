@@ -6,7 +6,7 @@ Performance profiler for applicaitons
 - Statistics for kernel events
 
 
-## Goals
+## Goals for Version 1.0
 - capturing the time of the applications functions and visualising it in graph
 - displaying it in web visualiation form and let user interact with it 
 - remote profiling of RPC (extend)
