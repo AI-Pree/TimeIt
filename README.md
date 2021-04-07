@@ -16,3 +16,4 @@ Performance profiler for applicaitons
 - showing a graph on cpu usage, ram usage and uptime
 - Algorithm, sampling, instrumental and concurrency profiling
 - Live sharing of profiling process with other users
+- visualising the graph relationship between the functions of the application
