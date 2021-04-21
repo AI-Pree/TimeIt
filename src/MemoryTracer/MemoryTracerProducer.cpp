@@ -16,19 +16,20 @@ namespace memory_tracer {
 	// joins to the main thread if the thread_ has stopped
 	// executing the code 
 	void MemoryTracerProducer::stop(){
+		// check if the thread has complete its task 
 		if(thread_ != nullptr && thread_->joinable()){
 			thread_->join();
 		}
 		thread_.reset();
 	}
-	
+
 
 	void MemoryTracerProducer::run() {
 		generate_memory_usage();
 	}
 
 	void MemoryTracerProducer::generate_memory_usage(){
-		std::optional<MemoryUsage> 
+		std::cout << "Memory usage for the given program" << std::endl;
 	}
 }
 
