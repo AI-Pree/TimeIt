@@ -1,0 +1,8 @@
+message SystemMemoryUsage {
+	uint64 timestamp_ns 	= 1;
+	int64 memTotal_kb  	= 2;
+	int64 memFree_kb    	= 3;
+	int64 memAvailabe_kb 	= 4;
+	int64 buffers_kb 	= 5;
+	int64 cached_kb 	= 6;
+}

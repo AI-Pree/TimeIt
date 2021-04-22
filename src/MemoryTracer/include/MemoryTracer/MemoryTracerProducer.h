@@ -25,7 +25,7 @@ namespace memory_tracer {
 				sampling_period_in_ns(memory_sampling_period_in_ns){}	
 
 			void start();	// start the memory sampling
-			void stop();	// end the memory sampling, usually after the lifetime of MemoryTracerProducer is over
+			void stop();	// end the memory sampling, usually after the lifetime of MemoryTracerProducer is over or called
 			~MemoryTracerProducer(){ stop(); }
 			
 			// for now most of the constructor are disabled

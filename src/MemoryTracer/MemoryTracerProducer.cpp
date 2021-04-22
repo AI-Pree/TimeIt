@@ -27,9 +27,13 @@ namespace memory_tracer {
 	void MemoryTracerProducer::run() {
 		generate_memory_usage();
 	}
+	
 
+	// retrive information from the proc/meminfo
 	void MemoryTracerProducer::generate_memory_usage(){
 		std::cout << "Memory usage for the given program" << std::endl;
 	}
+
+
 }
 
