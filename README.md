@@ -1,9 +1,13 @@
 # TimeIt
 Performance profiler for applicaitons
 
-- Using kprobes for dynamic tracing
-- Statistics for kernel functions
-- Statistics for kernel events
+
+## TO DO
+- [ ] Monitoring,  debugging and performance analysis for pthread
+- [ ] Using kprobes for dynamic tracing
+- [ ] Statistics for kernel functions
+- [ ] Statistics for kernel events
+
 
 
 ## Goals for Version 1.0
@@ -14,3 +18,5 @@ Performance profiler for applicaitons
 - Runtime profiler
 - Algorithm, sampling, instrumental and concurrency profiling
 - visualising the graph relationship between the functions of the application
+
+
