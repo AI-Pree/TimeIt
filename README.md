@@ -7,8 +7,7 @@ Performance profiler for applicaitons
 - [ ] Using kprobes for dynamic tracing
 - [ ] Statistics for kernel functions
 - [ ] Statistics for kernel events
-
-
+- [ ] Add a docker or use wasm
 
 ## Goals for Version 1.0
 - capturing the time of the applications functions and visualising it in graph
